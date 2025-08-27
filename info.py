@@ -16,7 +16,7 @@
 # 
 # Мультивалютность - работает с ценами и прочим
 # django money pypi - https://pypi.org/project/django-money/ 
-# 
+# pip install django-money
 # 
 #
 # Ссайт с документацией
