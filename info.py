@@ -410,11 +410,13 @@
 # 
 # .gitignore - файл который хранит ограничения на то что не надо загружать в github - напримерв venv - не надо туда грузить
 # 
-# 
-# 
-# 
-# 
-# 
+# appShop - models.py - photo(строка 28)
+# добавили колонку фото - то что было в дз
+# makemigrations - migrate
+# в корне создали памку media
+# настроили ее в Shop - settings.py - STATIC_URL
+# MEDIA_URL = 'media/'
+# MEDIA_ROOT = BASE_DIR / 'media'
 # 
 # 
 # 
