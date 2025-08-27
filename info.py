@@ -432,7 +432,7 @@
 # <img src='${product["photo"]}>
 # Фото тоже
 # 
-# 
+# работали в style.css
 # 
 # 
 # 
