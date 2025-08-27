@@ -21,9 +21,10 @@ function performSearch() {
           let card = document.createElement("div");
           card.className = "card";
           card.innerHTML = `
-        <h4>${product["title"]}</h4>
-        <p>${product["price"]}</p>
-        `;
+          <img src="/media/${product['photo']}">
+          <h4>${product["title"]}</h4>
+          <p>${product["price"]}</p>
+          `;
 
           resultsContainer.appendChild(card);
         });

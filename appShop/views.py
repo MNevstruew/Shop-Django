@@ -14,7 +14,7 @@ class SearchProduct(View):
         search_products = Product.objects.filter(
            # title__icontains=query                   # __icontains - приблизителный поиск - тут не работает
             title__iregex=query                       # title__iregex - это работает - приблизителный поиск
-        ).values('title', 'price')                    # обычный словарь - список
+        ).values('title', 'price', 'photo')                    # обычный словарь - список
         
         return JsonResponse({
             'success': True, 

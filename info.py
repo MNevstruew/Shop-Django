@@ -405,7 +405,7 @@
 # 27.08
 # GitHub
 # github desktop надо утановить 
-# iqunix42 - там этот файл
+# iqnix42 - там этот файл
 # git bash
 # 
 # .gitignore - файл который хранит ограничения на то что не надо загружать в github - напримерв venv - не надо туда грузить
@@ -414,21 +414,23 @@
 # добавили колонку фото - то что было в дз
 # makemigrations - migrate
 # в корне создали памку media
+# 
+# 
 # настроили ее в Shop - settings.py - STATIC_URL
 # MEDIA_URL = 'media/'
 # MEDIA_ROOT = BASE_DIR / 'media'
 # 
 # 
+# добавили в Shop - urls.py
+# from django.conf import settings
+# from django.conf.urls.static import static
 # 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
+# appShop views.py
+# там дОбавили
+# values('title', 'price', 'photo') - фото
+# добавили в static - js - scripts
+# <img src='${product["photo"]}>
+# Фото тоже
 # 
 # 
 # 
